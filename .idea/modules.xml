@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/MegaBytesConverter/MegaBytesConverter.iml" filepath="$PROJECT_DIR$/MegaBytesConverter/MegaBytesConverter.iml" />
       <module fileurl="file://$PROJECT_DIR$/MinutesToYearsDaysCalculator/MinutesToYearsDaysCalculator.iml" filepath="$PROJECT_DIR$/MinutesToYearsDaysCalculator/MinutesToYearsDaysCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/NumberInWord/NumberInWord.iml" filepath="$PROJECT_DIR$/NumberInWord/NumberInWord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NumberOfDaysInMonth/NumberOfDaysInMonth.iml" filepath="$PROJECT_DIR$/NumberOfDaysInMonth/NumberOfDaysInMonth.iml" />
       <module fileurl="file://$PROJECT_DIR$/PlayingCat/PlayingCat.iml" filepath="$PROJECT_DIR$/PlayingCat/PlayingCat.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpeedConverter/SpeedConverter.iml" filepath="$PROJECT_DIR$/SpeedConverter/SpeedConverter.iml" />
       <module fileurl="file://$PROJECT_DIR$/TeenNumberChecker/TeenNumberChecker.iml" filepath="$PROJECT_DIR$/TeenNumberChecker/TeenNumberChecker.iml" />
