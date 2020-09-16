@@ -8,4 +8,21 @@ public class GreatestCommonDivisor {
     // 1. Use a while or a for loop and check if both numbers can be divided without a remainder.
     // 2. Find the minimum of the two numbers.
 
+    public static int getGreatestCommonDivisor(int first, int second) {
+
+        if((first>=10) && (second>=10)) {
+
+            int possibleFactor = Math.min(first,second);
+
+            while(possibleFactor>0){
+
+                if((first % possibleFactor == 0) && (second % possibleFactor == 0)){
+                    return possibleFactor;
+                }
+                possibleFactor--;
+            }
+        }
+        return -1;
+    }
+
 }
