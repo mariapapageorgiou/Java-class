@@ -18,4 +18,21 @@ public class NumberPalindrome {
     // 4. Be careful with negative numbers. They can also be palindrome numbers.
     // 5. You will need a parameter for comparing a reversed number with the starting number
 
+    public static boolean isPalindrome(int number) {
+
+        int reverse = 0;
+        int lastDigit = 0;
+        int processedNumber = number;
+
+        while(processedNumber != 0) {
+            lastDigit = processedNumber % 10;
+            reverse *= 10;
+            reverse += lastDigit;
+            processedNumber /= 10;
+        }
+        if(reverse==number) {
+            return true;
+        }
+        return false;
+    }
 }
