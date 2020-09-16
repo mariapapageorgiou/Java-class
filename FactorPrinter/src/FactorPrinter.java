@@ -11,5 +11,24 @@ public class FactorPrinter {
     // 5
     // 10
 
+    public static void printFactors(int number){
 
+        if(number>=1){
+
+            int factor = 0;
+            int num = 1;
+
+            while(num<=number){
+                factor = number % num;
+                if(factor==0){
+                    System.out.println(num);
+                }
+                num++;
+            }
+
+        } else {
+            System.out.println("Invalid Value");
+        }
+
+    }
 }
