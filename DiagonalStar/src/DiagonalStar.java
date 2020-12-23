@@ -27,4 +27,12 @@ public class DiagonalStar {
     //      To print on the same line, use the print method instead of println, e.g. System.out.print(" ");
     //         prints a space and does not "move" to another line.
     //      To "move" to another line, you can use an empty println call, e.g. System.out.println();
+    public static void printSquareStar(int number) {
+
+        if (number < 5) {
+            System.out.println("Invalid Value");
+        } else {
+
+        }
+    }
 }
